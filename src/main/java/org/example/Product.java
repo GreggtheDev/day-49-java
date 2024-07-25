@@ -24,3 +24,13 @@ public class Product {
         System.out.println("Cost per unit: $" + cost);
         System.out.println("Quantity: " + quantity);
     }
+
+    public static void main(String[] args) {
+        // Instantiate a Product object
+        Product product = new Product("Laptop", 799.99, 2);
+
+        // Call the printProduct and totalCost methods
+        product.printProduct();
+        product.totalCost();
+    }
+}
