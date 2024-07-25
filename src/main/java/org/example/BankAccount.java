@@ -31,11 +31,18 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        // Instantiate a BankAccount object with $500
-        BankAccount account = new BankAccount("John Doe", 500);
-        // Deposit $100
-        account.deposit(100);
+        // Create two accounts
+        BankAccount account1 = new BankAccount("Alice", 5000);
+        BankAccount account2 = new BankAccount("Bob", 300);
+
+        // Withdraw $100 from the first account
+        account1.withdraw(100);
+
+        // Deposit $100 to the second account
+        account2.deposit(100);
+
         // Print account details
-        System.out.println(account);
+        System.out.println(account1);
+        System.out.println(account2);
     }
 }
