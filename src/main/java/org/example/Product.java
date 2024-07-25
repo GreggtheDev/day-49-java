@@ -11,3 +11,9 @@ public class Product {
         this.cost = cost;
         this.quantity = quantity;
     }
+
+    // Method to calculate total cost
+    public void totalCost() {
+        double totalCost = cost * quantity;
+        System.out.println("Total cost for " + quantity + " units of " + productName + " is $" + totalCost);
+    }
