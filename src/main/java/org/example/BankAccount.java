@@ -9,3 +9,10 @@ public class BankAccount {
         this.accountHolderName = accountHolderName;
         this.balance = balance;
     }
+
+    // Method to deposit money
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
