@@ -17,3 +17,10 @@ public class Product {
         double totalCost = cost * quantity;
         System.out.println("Total cost for " + quantity + " units of " + productName + " is $" + totalCost);
     }
+
+    // Method to print product details
+    public void printProduct() {
+        System.out.println("Product: " + productName);
+        System.out.println("Cost per unit: $" + cost);
+        System.out.println("Quantity: " + quantity);
+    }
