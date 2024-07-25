@@ -1,4 +1,4 @@
-Sure! Here is a comprehensive README file that goes along with your BankAccount and Product classes assignment:
+
 
 ### README.md
 
