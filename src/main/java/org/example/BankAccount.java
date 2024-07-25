@@ -29,3 +29,13 @@ public class BankAccount {
     public String toString() {
         return "Account Holder: " + accountHolderName + "\nBalance: $" + balance;
     }
+
+    public static void main(String[] args) {
+        // Instantiate a BankAccount object with $500
+        BankAccount account = new BankAccount("John Doe", 500);
+        // Deposit $100
+        account.deposit(100);
+        // Print account details
+        System.out.println(account);
+    }
+}
