@@ -23,3 +23,9 @@ public class BankAccount {
             balance -= amount;
         }
     }
+
+    // Method to print account details
+    @Override
+    public String toString() {
+        return "Account Holder: " + accountHolderName + "\nBalance: $" + balance;
+    }
