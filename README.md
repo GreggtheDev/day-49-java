@@ -2,7 +2,7 @@
 
 ### README.md
 
-```markdown
+
 # Java Bank Account and Product Management
 
 ## Overview
